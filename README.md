@@ -25,10 +25,10 @@
 
 | Details | Information |
 |:---|:---|
-| **Student Name** | Deepak Godugu |
+| **Student Name** | rohith yenumula |
 | **College** | Aurora University |
-| **Registration Number** | 252U1R6079 |
-| **Section** | AIML-2B |
+| **Registration Number** | 252U1R1266 |
+| **Section** | CSE-2E |
 | **Course** | Backend Development Fundamentals |
 | **Lab Number** | Lab 04 |
 | **Project Title** | Registration, Login and JWT |
