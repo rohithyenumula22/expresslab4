@@ -5,23 +5,13 @@
 
 **A secure backend authentication system built with Node.js, Express.js, SQLite and JWT.**
 
-<br>
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-<br>
-
 **Backend Development Fundamentals | Aurora University**
 
 </div>
 
 ---
 
-## 👨‍🎓 Student Information
+## Student Information
 
 | Details | Information |
 |:---|:---|
@@ -35,7 +25,7 @@
 
 ---
 
-## 📌 About The Project
+##  About The Project
 
 This project is a backend authentication application that provides secure user registration and login functionality.
 
@@ -47,7 +37,7 @@ The project demonstrates the fundamentals of backend development, database integ
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 <table>
 <tr>
@@ -61,7 +51,7 @@ The project demonstrates the fundamentals of backend development, database integ
 </td>
 <td width="50%">
 
-### 🔑 User Login
+###  User Login
 - Verify user credentials.
 - Compare hashed passwords.
 - Reject invalid login attempts.
@@ -71,7 +61,7 @@ The project demonstrates the fundamentals of backend development, database integ
 <tr>
 <td width="50%">
 
-### 🔒 Password Security
+###  Password Security
 - bcrypt password hashing.
 - Secure password comparison.
 - No plain-text password storage.
@@ -79,7 +69,7 @@ The project demonstrates the fundamentals of backend development, database integ
 </td>
 <td width="50%">
 
-### 🎟️ JWT Generation
+### JWT Generation
 - Generate JWT after login.
 - Store username in payload.
 - Set token expiration time.
@@ -90,7 +80,7 @@ The project demonstrates the fundamentals of backend development, database integ
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Technology | Purpose |
 |:---|:---|
@@ -104,7 +94,7 @@ The project demonstrates the fundamentals of backend development, database integ
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 lab4/
@@ -186,9 +176,9 @@ Request Body:
 
 ```json
 {
-    "username": "deepak123",
-    "name": "Deepak",
-    "password": "deepak@123"
+    "username": "rohith123",
+    "name": "rohith",
+    "password": "rohith@123"
 }
 ```
 
@@ -212,8 +202,8 @@ Request Body:
 
 ```json
 {
-    "username": "deepak123",
-    "password": "deepak@123"
+    "username": "rohith123",
+    "password": "rohith@123"
 }
 ```
 
@@ -291,24 +281,24 @@ The following test cases were performed to verify the application.
 
 ### 1. Successful User Registration
 
-![Registration Success](https://github.com/deepakgodugu0568/expressnode_lab4/blob/2ba4ee8004e56cfad00ddebad25c074d2bc13e43/screenshots/user%20register%20sucessfully.png)
+![Registration Success](https://github.com/rohithyenumula22/expresslab4/blob/f214f20d55d901953529c9bbfdd5825404827f0c/screenshots/registration%20successful.png)
 
 ### 2. user already exits
 
-![Registration Failure](https://github.com/deepakgodugu0568/expressnode_lab4/blob/2ba4ee8004e56cfad00ddebad25c074d2bc13e43/screenshots/user%20already%20exits.png)
+![user already exits](https://github.com/rohithyenumula22/expresslab4/blob/f214f20d55d901953529c9bbfdd5825404827f0c/screenshots/user%20already%20exits.png)
 
 ### 3. Successful User Login
 
-![Login Success](https://github.com/deepakgodugu0568/expressnode_lab4/blob/2ba4ee8004e56cfad00ddebad25c074d2bc13e43/screenshots/jwt%20token.png)
+![Login Success](https://github.com/rohithyenumula22/expresslab4/blob/f214f20d55d901953529c9bbfdd5825404827f0c/screenshots/login%20successful.png)
 
 ### 4. Invalid Login
 
-![Login Failure](https://github.com/deepakgodugu0568/expressnode_lab4/blob/2ba4ee8004e56cfad00ddebad25c074d2bc13e43/screenshots/invalid%20user.png)
-![Login Failure](https://github.com/deepakgodugu0568/expressnode_lab4/blob/2ba4ee8004e56cfad00ddebad25c074d2bc13e43/screenshots/invalid%20password.png)
+![Login Failure](https://github.com/rohithyenumula22/expresslab4/blob/f214f20d55d901953529c9bbfdd5825404827f0c/screenshots/wrong%20password.png)
+![Login Failure](https://github.com/rohithyenumula22/expresslab4/blob/f214f20d55d901953529c9bbfdd5825404827f0c/screenshots/wrong%20username.png)
 
 ### 5. JWT Token Verification
 
-![JWT Verification](https://github.com/deepakgodugu0568/expressnode_lab4/blob/2ba4ee8004e56cfad00ddebad25c074d2bc13e43/screenshots/decoding%20jwt%20token.png)
+![JWT Verification](https://github.com/rohithyenumula22/expresslab4/blob/f214f20d55d901953529c9bbfdd5825404827f0c/screenshots/decoding%20jwt.png)
 
 ---
 
